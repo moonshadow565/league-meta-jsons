@@ -1,0 +1,9 @@
+[submodule "src/manifests"]
+	path = src/manifests
+	url = https://github.com/Morilli/league-patcher-jsons
+[submodule "src/fckrman"]
+	path = src/fckrman
+	url = https://github.com/moonshadow565/fckrman
+[submodule "src/dumper"]
+	path = src/dumper
+	url = https://github.com/moonshadow565/LoLMetaDumper

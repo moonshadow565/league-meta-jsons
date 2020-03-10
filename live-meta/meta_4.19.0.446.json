@@ -1,0 +1,601 @@
+{
+  "classes": [
+    {
+      "alignment": 4,
+      "classSize": 40,
+      "constructor": 5771296,
+      "destructor": 5771360,
+      "hash": 1581344352,
+      "initfunction": 4291100672,
+      "inplaceconstructor": 5771392,
+      "inplacedestructor": 5771456,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2516077785,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 348705738,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 16,
+            "fixedSize": 0,
+            "type": 13,
+            "vtable": 13601112
+          },
+          "hash": 877087803,
+          "mapI": null,
+          "offset": 28,
+          "otherClass": 0,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4291100672
+    },
+    {
+      "alignment": 4,
+      "classSize": 48,
+      "constructor": 5771536,
+      "destructor": 5771600,
+      "hash": 2545178927,
+      "initfunction": 4291100672,
+      "inplaceconstructor": 5771664,
+      "inplacedestructor": 5771712,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1774789996,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 812326863,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4291100672
+    },
+    {
+      "alignment": 4,
+      "classSize": 48,
+      "constructor": 5771536,
+      "destructor": 5771600,
+      "hash": 1017901811,
+      "initfunction": 4291100672,
+      "inplaceconstructor": 5771664,
+      "inplacedestructor": 5771712,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2369371622,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2215926944,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4291100672
+    },
+    {
+      "alignment": 4,
+      "classSize": 188,
+      "constructor": 5771744,
+      "destructor": 5771776,
+      "hash": 2510638975,
+      "initfunction": 4291100672,
+      "inplaceconstructor": 5771888,
+      "inplacedestructor": 5771920,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 154752306,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1425613328,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 48,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 13600968
+          },
+          "hash": 3144706823,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 1017901811,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 48,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 13600968
+          },
+          "hash": 2992791797,
+          "mapI": null,
+          "offset": 60,
+          "otherClass": 1017901811,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3098946329,
+          "mapI": null,
+          "offset": 72,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4224637916,
+          "mapI": null,
+          "offset": 73,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3395332232,
+          "mapI": null,
+          "offset": 74,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1774899127,
+          "mapI": null,
+          "offset": 75,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 563627758,
+          "mapI": null,
+          "offset": 76,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2211589160,
+          "mapI": null,
+          "offset": 77,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3570077931,
+          "mapI": null,
+          "offset": 80,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3195306164,
+          "mapI": null,
+          "offset": 84,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3526317383,
+          "mapI": null,
+          "offset": 88,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 870649863,
+          "mapI": null,
+          "offset": 92,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2532710384,
+          "mapI": null,
+          "offset": 96,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1225250276,
+          "mapI": null,
+          "offset": 100,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2150252277,
+          "mapI": null,
+          "offset": 104,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 984801784,
+          "mapI": null,
+          "offset": 108,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 296322292,
+          "mapI": null,
+          "offset": 112,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1414411824,
+          "mapI": null,
+          "offset": 116,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1042099041,
+          "mapI": null,
+          "offset": 120,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3939196117,
+          "mapI": null,
+          "offset": 124,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3916755092,
+          "mapI": null,
+          "offset": 128,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2311925502,
+          "mapI": null,
+          "offset": 132,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1877255084,
+          "mapI": null,
+          "offset": 136,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1691116298,
+          "mapI": null,
+          "offset": 140,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1909225345,
+          "mapI": null,
+          "offset": 141,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1959558202,
+          "mapI": null,
+          "offset": 142,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1942780583,
+          "mapI": null,
+          "offset": 143,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 360071729,
+          "mapI": null,
+          "offset": 144,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 13403440,
+          "mapI": null,
+          "offset": 145,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 419409204,
+          "mapI": null,
+          "offset": 148,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 100634443,
+          "mapI": null,
+          "offset": 152,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 150967300,
+          "mapI": null,
+          "offset": 156,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 201300157,
+          "mapI": null,
+          "offset": 160,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 48,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 13600968
+          },
+          "hash": 967954389,
+          "mapI": null,
+          "offset": 164,
+          "otherClass": 2545178927,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 40,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 13601080
+          },
+          "hash": 3071239576,
+          "mapI": null,
+          "offset": 176,
+          "otherClass": 1581344352,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4291100672
+    },
+    {
+      "alignment": 4,
+      "classSize": 36,
+      "constructor": 5771984,
+      "destructor": 5772048,
+      "hash": 3585347952,
+      "initfunction": 4291100672,
+      "inplaceconstructor": 5772112,
+      "inplacedestructor": 5772176,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2369371622,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 188,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 13601144
+          },
+          "hash": 1648153180,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 2510638975,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4291100672
+    },
+    {
+      "alignment": 4,
+      "classSize": 60,
+      "constructor": 5772208,
+      "destructor": 5772288,
+      "hash": 2973938519,
+      "initfunction": 5772480,
+      "inplaceconstructor": 5772368,
+      "inplacedestructor": 5772448,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2369371622,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3524856600,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 36,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 13600936
+          },
+          "hash": 2219784270,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 3585347952,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4291100672
+    }
+  ],
+  "version": "4.19.0.446"
+}

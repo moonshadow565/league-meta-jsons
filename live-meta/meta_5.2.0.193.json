@@ -1,0 +1,2410 @@
+{
+  "classes": [
+    {
+      "alignment": 4,
+      "classSize": 1092,
+      "constructor": 8604128,
+      "destructor": 8604240,
+      "hash": 608970470,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 8604304,
+      "inplacedestructor": 8604384,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2184067234,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1960067173,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 243406986,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3143486745,
+          "mapI": null,
+          "offset": 96,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3301591302,
+          "mapI": null,
+          "offset": 72,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 331209851,
+          "mapI": null,
+          "offset": 100,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2362301363,
+          "mapI": null,
+          "offset": 104,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 992861497,
+          "mapI": null,
+          "offset": 108,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 553900340,
+          "mapI": null,
+          "offset": 136,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 189023530,
+          "mapI": null,
+          "offset": 164,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 340108739,
+          "mapI": null,
+          "offset": 168,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1312195519,
+          "mapI": null,
+          "offset": 172,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2403638411,
+          "mapI": null,
+          "offset": 173,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4029153691,
+          "mapI": null,
+          "offset": 174,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3013307643,
+          "mapI": null,
+          "offset": 175,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3776240468,
+          "mapI": null,
+          "offset": 176,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1371846774,
+          "mapI": null,
+          "offset": 177,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3466807852,
+          "mapI": null,
+          "offset": 178,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3520834977,
+          "mapI": null,
+          "offset": 179,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3961762911,
+          "mapI": null,
+          "offset": 180,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 4,
+            "fixedSize": 8,
+            "type": 6,
+            "vtable": 15742716
+          },
+          "hash": 2378935041,
+          "mapI": null,
+          "offset": 184,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 4,
+            "fixedSize": 8,
+            "type": 6,
+            "vtable": 15742716
+          },
+          "hash": 1433942708,
+          "mapI": null,
+          "offset": 216,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 4,
+            "fixedSize": 8,
+            "type": 6,
+            "vtable": 15742716
+          },
+          "hash": 261776522,
+          "mapI": null,
+          "offset": 248,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 4,
+            "fixedSize": 8,
+            "type": 10,
+            "vtable": 15742716
+          },
+          "hash": 622481957,
+          "mapI": null,
+          "offset": 280,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 383889158,
+          "mapI": null,
+          "offset": 312,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2668631768,
+          "mapI": null,
+          "offset": 316,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 114923451,
+          "mapI": null,
+          "offset": 320,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2503021533,
+          "mapI": null,
+          "offset": 324,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 21500352,
+          "mapI": null,
+          "offset": 328,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1056021178,
+          "mapI": null,
+          "offset": 332,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3251443531,
+          "mapI": null,
+          "offset": 336,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3484183065,
+          "mapI": null,
+          "offset": 340,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 438843610,
+          "mapI": null,
+          "offset": 360,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 465474815,
+          "mapI": null,
+          "offset": 364,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3074015573,
+          "mapI": null,
+          "offset": 368,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2860471743,
+          "mapI": null,
+          "offset": 372,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3046428930,
+          "mapI": null,
+          "offset": 376,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2481690788,
+          "mapI": null,
+          "offset": 380,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1437359509,
+          "mapI": null,
+          "offset": 384,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1175202283,
+          "mapI": null,
+          "offset": 388,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1696157308,
+          "mapI": null,
+          "offset": 392,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3960767193,
+          "mapI": null,
+          "offset": 396,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1490206803,
+          "mapI": null,
+          "offset": 400,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1771515992,
+          "mapI": null,
+          "offset": 404,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3120132768,
+          "mapI": null,
+          "offset": 408,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2246896526,
+          "mapI": null,
+          "offset": 412,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3110649810,
+          "mapI": null,
+          "offset": 416,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3154445093,
+          "mapI": null,
+          "offset": 420,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3340385681,
+          "mapI": null,
+          "offset": 424,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3520107050,
+          "mapI": null,
+          "offset": 428,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 823330312,
+          "mapI": null,
+          "offset": 432,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1316651469,
+          "mapI": null,
+          "offset": 436,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3556259147,
+          "mapI": null,
+          "offset": 440,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 680171085,
+          "mapI": null,
+          "offset": 444,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 107141991,
+          "mapI": null,
+          "offset": 448,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2093165359,
+          "mapI": null,
+          "offset": 452,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1666883285,
+          "mapI": null,
+          "offset": 456,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1456684975,
+          "mapI": null,
+          "offset": 460,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2902530009,
+          "mapI": null,
+          "offset": 464,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2480014019,
+          "mapI": null,
+          "offset": 468,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2223490792,
+          "mapI": null,
+          "offset": 472,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3418195010,
+          "mapI": null,
+          "offset": 476,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1205165755,
+          "mapI": null,
+          "offset": 480,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3849080725,
+          "mapI": null,
+          "offset": 484,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3311766576,
+          "mapI": null,
+          "offset": 488,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3413524030,
+          "mapI": null,
+          "offset": 492,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 205329187,
+          "mapI": null,
+          "offset": 496,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 53828642,
+          "mapI": null,
+          "offset": 500,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1734111875,
+          "mapI": null,
+          "offset": 504,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4131342143,
+          "mapI": null,
+          "offset": 508,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1894351929,
+          "mapI": null,
+          "offset": 512,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2982985559,
+          "mapI": null,
+          "offset": 516,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1179205471,
+          "mapI": null,
+          "offset": 520,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3414564600,
+          "mapI": null,
+          "offset": 524,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 129744045,
+          "mapI": null,
+          "offset": 528,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 670987340,
+          "mapI": null,
+          "offset": 532,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2751887928,
+          "mapI": null,
+          "offset": 536,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 923130382,
+          "mapI": null,
+          "offset": 540,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4275804833,
+          "mapI": null,
+          "offset": 544,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3015587271,
+          "mapI": null,
+          "offset": 548,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 404970113,
+          "mapI": null,
+          "offset": 552,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3943991233,
+          "mapI": null,
+          "offset": 556,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2792066836,
+          "mapI": null,
+          "offset": 560,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 726409785,
+          "mapI": null,
+          "offset": 564,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 352859766,
+          "mapI": null,
+          "offset": 568,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1877272195,
+          "mapI": null,
+          "offset": 572,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2905328816,
+          "mapI": null,
+          "offset": 576,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2671021730,
+          "mapI": null,
+          "offset": 580,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1780125833,
+          "mapI": null,
+          "offset": 584,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3026449378,
+          "mapI": null,
+          "offset": 588,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4099163593,
+          "mapI": null,
+          "offset": 592,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 215320441,
+          "mapI": null,
+          "offset": 596,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2387497374,
+          "mapI": null,
+          "offset": 600,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 777356379,
+          "mapI": null,
+          "offset": 604,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1776654408,
+          "mapI": null,
+          "offset": 608,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2201188251,
+          "mapI": null,
+          "offset": 612,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4122184840,
+          "mapI": null,
+          "offset": 616,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1269712395,
+          "mapI": null,
+          "offset": 620,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 680253330,
+          "mapI": null,
+          "offset": 624,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 675656985,
+          "mapI": null,
+          "offset": 628,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3407855826,
+          "mapI": null,
+          "offset": 632,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 550111833,
+          "mapI": null,
+          "offset": 636,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2682018419,
+          "mapI": null,
+          "offset": 640,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1465104691,
+          "mapI": null,
+          "offset": 644,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3589720264,
+          "mapI": null,
+          "offset": 648,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 952926856,
+          "mapI": null,
+          "offset": 652,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2809881569,
+          "mapI": null,
+          "offset": 656,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3643312288,
+          "mapI": null,
+          "offset": 1004,
+          "otherClass": 2233135733,
+          "type": 20
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 88,
+      "constructor": 8604400,
+      "destructor": 8604432,
+      "hash": 2233135733,
+      "initfunction": 8604512,
+      "inplaceconstructor": 8604464,
+      "inplacedestructor": 8604496,
+      "isInterface": false,
+      "isPropertyBase": true,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4059172210,
+          "mapI": null,
+          "offset": 8,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2589604484,
+          "mapI": null,
+          "offset": 32,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3331175726,
+          "mapI": null,
+          "offset": 56,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1591985235,
+          "mapI": null,
+          "offset": 80,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2441583306,
+          "mapI": null,
+          "offset": 84,
+          "otherClass": 0,
+          "type": 10
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 84,
+      "constructor": 8603504,
+      "destructor": 8603536,
+      "hash": 856064357,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 8603616,
+      "inplacedestructor": 8603648,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1209207887,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2471448074,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 12
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 516659084,
+          "mapI": null,
+          "offset": 36,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3661793589,
+          "mapI": null,
+          "offset": 60,
+          "otherClass": 0,
+          "type": 16
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 24,
+      "constructor": 8603696,
+      "destructor": 8603744,
+      "hash": 4160558231,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 8603808,
+      "inplacedestructor": 8603840,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2776090843,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 716,
+      "constructor": 8603856,
+      "destructor": 8603968,
+      "hash": 2607278582,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 8604032,
+      "inplacedestructor": 8604112,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 762889000,
+          "mapI": null,
+          "offset": 8,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1282656454,
+          "mapI": null,
+          "offset": 32,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1174362372,
+          "mapI": null,
+          "offset": 36,
+          "otherClass": 1628559524,
+          "type": 20
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 755834653,
+          "mapI": null,
+          "offset": 444,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 24,
+            "fixedSize": 0,
+            "type": 16,
+            "vtable": 15742780
+          },
+          "hash": 1403862017,
+          "mapI": null,
+          "offset": 468,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 24,
+            "fixedSize": 0,
+            "type": 16,
+            "vtable": 15742780
+          },
+          "hash": 305370093,
+          "mapI": null,
+          "offset": 480,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 84,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 15742748
+          },
+          "hash": 2216193852,
+          "mapI": null,
+          "offset": 492,
+          "otherClass": 856064357,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 455964165,
+          "mapI": null,
+          "offset": 504,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4119314700,
+          "mapI": null,
+          "offset": 528,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 24,
+            "fixedSize": 0,
+            "type": 16,
+            "vtable": 15742780
+          },
+          "hash": 1712098126,
+          "mapI": null,
+          "offset": 552,
+          "otherClass": 0,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1519704392,
+          "mapI": null,
+          "offset": 564,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4037237116,
+          "mapI": null,
+          "offset": 568,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2528483215,
+          "mapI": null,
+          "offset": 572,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1453022363,
+          "mapI": null,
+          "offset": 576,
+          "otherClass": 0,
+          "type": 12
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3676566289,
+          "mapI": null,
+          "offset": 588,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1801322932,
+          "mapI": null,
+          "offset": 592,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1998811699,
+          "mapI": null,
+          "offset": 616,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 344277337,
+          "mapI": null,
+          "offset": 640,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 144375657,
+          "mapI": null,
+          "offset": 644,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3710850138,
+          "mapI": null,
+          "offset": 668,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3474322026,
+          "mapI": null,
+          "offset": 692,
+          "otherClass": 0,
+          "type": 16
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 80,
+      "constructor": 9490288,
+      "destructor": 9490384,
+      "hash": 2340045716,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9490464,
+      "inplacedestructor": 9490560,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1013213428,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3728192392,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2866241836,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2498028297,
+          "mapI": null,
+          "offset": 72,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 897409820,
+          "mapI": null,
+          "offset": 76,
+          "otherClass": 0,
+          "type": 6
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 408,
+      "constructor": 9490608,
+      "destructor": 9490720,
+      "hash": 1628559524,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9490784,
+      "inplacedestructor": 9490864,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2974586734,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3600813558,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3138204623,
+          "mapI": null,
+          "offset": 72,
+          "otherClass": 0,
+          "type": 6
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1013213428,
+          "mapI": null,
+          "offset": 76,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1976214102,
+          "mapI": null,
+          "offset": 100,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2593342865,
+          "mapI": null,
+          "offset": 124,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3728192392,
+          "mapI": null,
+          "offset": 148,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2717386202,
+          "mapI": null,
+          "offset": 172,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 623863940,
+          "mapI": null,
+          "offset": 176,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 809906116,
+          "mapI": null,
+          "offset": 180,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3373988429,
+          "mapI": null,
+          "offset": 204,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1551500082,
+          "mapI": null,
+          "offset": 208,
+          "otherClass": 0,
+          "type": 12
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3538210912,
+          "mapI": null,
+          "offset": 220,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 84321477,
+          "mapI": null,
+          "offset": 244,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1885628584,
+          "mapI": null,
+          "offset": 248,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2518064342,
+          "mapI": null,
+          "offset": 252,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2029555967,
+          "mapI": null,
+          "offset": 256,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 225161483,
+          "mapI": null,
+          "offset": 260,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 629634788,
+          "mapI": null,
+          "offset": 264,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2436355000,
+          "mapI": null,
+          "offset": 268,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3841323775,
+          "mapI": null,
+          "offset": 272,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2967188775,
+          "mapI": null,
+          "offset": 273,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3678458954,
+          "mapI": null,
+          "offset": 276,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 297562208,
+          "mapI": null,
+          "offset": 300,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 389700534,
+          "mapI": null,
+          "offset": 304,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 319643915,
+          "mapI": null,
+          "offset": 308,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 635628026,
+          "mapI": null,
+          "offset": 312,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3473913770,
+          "mapI": null,
+          "offset": 316,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3399790031,
+          "mapI": null,
+          "offset": 320,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2159540111,
+          "mapI": null,
+          "offset": 324,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 4105854110,
+          "mapI": null,
+          "offset": 348,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 942155177,
+          "mapI": null,
+          "offset": 372,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 80,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 15786076
+          },
+          "hash": 611473680,
+          "mapI": null,
+          "offset": 396,
+          "otherClass": 2340045716,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 40,
+      "constructor": 9508048,
+      "destructor": 9508128,
+      "hash": 1004843456,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9508160,
+      "inplacedestructor": 9508224,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 371497209,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 348705738,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 16,
+            "fixedSize": 0,
+            "type": 13,
+            "vtable": 14613104
+          },
+          "hash": 877087803,
+          "mapI": null,
+          "offset": 28,
+          "otherClass": 0,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 68,
+      "constructor": 9508320,
+      "destructor": 9508416,
+      "hash": 2869847375,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9508496,
+      "inplacedestructor": 9508592,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 48757580,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3004290287,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 287229650,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 270452031,
+          "mapI": null,
+          "offset": 52,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 422645233,
+          "mapI": null,
+          "offset": 56,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 590421423,
+          "mapI": null,
+          "offset": 60,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1078252302,
+          "mapI": null,
+          "offset": 64,
+          "otherClass": 0,
+          "type": 7
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 48,
+      "constructor": 9508624,
+      "destructor": 9508416,
+      "hash": 2172095763,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9508688,
+      "inplacedestructor": 9508592,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2369371622,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2215926944,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 152,
+      "constructor": 9508752,
+      "destructor": 9508784,
+      "hash": 1162871167,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9508864,
+      "inplacedestructor": 9508896,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1330433874,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1696824304,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 48,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 15274364
+          },
+          "hash": 3872816621,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 2172095763,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3528489273,
+          "mapI": null,
+          "offset": 60,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1146928892,
+          "mapI": null,
+          "offset": 61,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 216564360,
+          "mapI": null,
+          "offset": 62,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 599217559,
+          "mapI": null,
+          "offset": 63,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1259296206,
+          "mapI": null,
+          "offset": 64,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3387270728,
+          "mapI": null,
+          "offset": 65,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2697402219,
+          "mapI": null,
+          "offset": 68,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2544340276,
+          "mapI": null,
+          "offset": 72,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3448804615,
+          "mapI": null,
+          "offset": 76,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3062613287,
+          "mapI": null,
+          "offset": 80,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3703169072,
+          "mapI": null,
+          "offset": 84,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2959881956,
+          "mapI": null,
+          "offset": 88,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1502843381,
+          "mapI": null,
+          "offset": 92,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1224555224,
+          "mapI": null,
+          "offset": 96,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3456923956,
+          "mapI": null,
+          "offset": 100,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 583059408,
+          "mapI": null,
+          "offset": 104,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2694155521,
+          "mapI": null,
+          "offset": 108,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 3188374517,
+          "mapI": null,
+          "offset": 112,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1938154804,
+          "mapI": null,
+          "offset": 116,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2415646430,
+          "mapI": null,
+          "offset": 120,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1267909100,
+          "mapI": null,
+          "offset": 124,
+          "otherClass": 0,
+          "type": 7
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2228000106,
+          "mapI": null,
+          "offset": 128,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2446109153,
+          "mapI": null,
+          "offset": 129,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2496442010,
+          "mapI": null,
+          "offset": 130,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2479664391,
+          "mapI": null,
+          "offset": 131,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1874514065,
+          "mapI": null,
+          "offset": 132,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2049683600,
+          "mapI": null,
+          "offset": 133,
+          "otherClass": 0,
+          "type": 1
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 1058206964,
+          "mapI": null,
+          "offset": 136,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 739432203,
+          "mapI": null,
+          "offset": 140,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 789765060,
+          "mapI": null,
+          "offset": 144,
+          "otherClass": 0,
+          "type": 10
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 840097917,
+          "mapI": null,
+          "offset": 148,
+          "otherClass": 0,
+          "type": 10
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 36,
+      "constructor": 9508944,
+      "destructor": 9509008,
+      "hash": 1943838960,
+      "initfunction": 4288151552,
+      "inplaceconstructor": 9509088,
+      "inplacedestructor": 9509152,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2369371622,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 152,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 15022396
+          },
+          "hash": 1648153180,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 1162871167,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    },
+    {
+      "alignment": 4,
+      "classSize": 84,
+      "constructor": 9509184,
+      "destructor": 9509216,
+      "hash": 3518864151,
+      "initfunction": 9509408,
+      "inplaceconstructor": 9509312,
+      "inplacedestructor": 9509344,
+      "isInterface": false,
+      "isPropertyBase": false,
+      "isSecondaryBase": false,
+      "isValue": false,
+      "parentClass": 0,
+      "properties": [
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 2369371622,
+          "mapI": null,
+          "offset": 0,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": null,
+          "hash": 685392504,
+          "mapI": null,
+          "offset": 24,
+          "otherClass": 0,
+          "type": 16
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 68,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 14704804
+          },
+          "hash": 175050421,
+          "mapI": null,
+          "offset": 48,
+          "otherClass": 2869847375,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 40,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 15109400
+          },
+          "hash": 3500885688,
+          "mapI": null,
+          "offset": 60,
+          "otherClass": 1004843456,
+          "type": 18
+        },
+        {
+          "bitmask": 0,
+          "containerI": {
+            "elemSize": 36,
+            "fixedSize": 0,
+            "type": 20,
+            "vtable": 14695732
+          },
+          "hash": 2219784270,
+          "mapI": null,
+          "offset": 72,
+          "otherClass": 1943838960,
+          "type": 18
+        }
+      ],
+      "secondaryBases": [],
+      "secondaryChildren": [],
+      "upcastSecondary": 4288151552
+    }
+  ],
+  "version": "5.2.0.193"
+}
