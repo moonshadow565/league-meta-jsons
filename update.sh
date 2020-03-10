@@ -24,6 +24,6 @@ cp ../bin/BugSplat.dll BugSplat.dll
 mv meta/* ../live-meta/
 cd ..
 
-git add live/meta/
+git add live-meta
 git commit -a -m 'update'
 git push origin master
