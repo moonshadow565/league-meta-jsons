@@ -2,7 +2,7 @@
 
 cd src/manifests
 echo "Updating submodule"
-git submodule update --remote --merge
+git pull
 cd ../..
 
 set -e 
@@ -16,7 +16,7 @@ url=$(cat "${realm}/${json}" | grep -Po '(?<=game_patch_url": ")[^"]+')
 echo "Url: ${url}"
 curl -o "manifest.manifest" "${url}" || exit 1
 echo "Downloading..."
-../bin/fckrman.exe -p ".*(dll|exe)" -v "manifest.manifest" -r -d
+../bin/fckrman.exe download -v -p ".*(dll|exe)" -r 3 "manifest.manifest"
 echo "Dumping.."
 rm -rf meta/
 cp ../bin/BugSplat.dll BugSplat.dll
