@@ -18,17 +18,16 @@ realm="../src/manifests/live-euw-win"
 echo "Realm: ${realm}"
 json=$(ls "${realm}" | sort -nr | head -n1)
 echo "Json: ${json}"
-url=$(cat "${realm}/${json}" | grep -Po '(?<=game_patch_url": ")[^"]+')
-echo "Url: ${url}"
-manifest=$(basename $url)
+manifest=$(cat "${realm}/${json}" | grep -Po '(?<=game_patch_url": "https://lol\.secure\.dyn\.riotcdn\.net/channels/public/releases/)[0-9A-F]+\.manifest')
+echo "Manifest: ${manifest}"
 if [ -f "${manifest}" ]; then
     echo "Manifest exists"
     exit 0
 fi
 echo "Fetching manifest"
-curl -f -o "${manifest}" "${url}"
+curl -f -o "${manifest}" "https://lol.secure.dyn.riotcdn.net/channels/public/releases/${manifest}"
 echo "Checking for updates"
-updates=$(../bin/fckrman.exe list "xmanifest.manifest" -v -p "League of Legends.exe" | wc -l)
+updates=$(../bin/fckrman.exe list "${manifest}" -v -p "League of Legends.exe" | wc -l)
 if [ "${updates}" -lt "1" ]; then
     echo "League not updated"
     exit 0
