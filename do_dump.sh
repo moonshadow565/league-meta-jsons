@@ -8,8 +8,7 @@ cd "${outdir}"
 echo "Cleaning up"
 rm -rf meta/
 rm -rf Logs/
-rm BugSplat.dll
-cp ../bin/BugSplat.dll BugSplat.dll
+cp ../../bin/BugSplat.dll BugSplat.dll
 
 echo "Dumping"
 if [ -d "/c/Windows" ]; then
