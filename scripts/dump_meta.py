@@ -1,5 +1,7 @@
 #!/bin/env python
 import json
+import sys
+import os
 
 t_none = 0
 t_boolean = 1
@@ -181,31 +183,20 @@ def build_deps(klasses, h, skip = []):
                     q.append(h2)
     return deps
 
-def dump(klasses, outname, filterf = None):
-    with open(outname, "w") as outf:
-        for klass in klasses:
-            if not filterf or filterf(klass):
-                dump_klass(klass, outf)
-        o = outf.write("""
+def dump(klasses, outf, filterf = None):
+    for klass in klasses:
+        if not filterf or filterf(klass):
+            dump_klass(klass, outf)
 
-/*
-Unknown types:
-{}
-*/
-
-/*
-Unknown fields:
-{}
-*/""".format("\n".join(unktypes), "\n".join(unkfields)))
-
-
-#dump(meta_klasses["classes"], "test.cpp")
-
-h_fields = readhashes("hashes.binfields.txt")
-h_types = readhashes("hashes.bintypes.txt")
-meta_klasses = json.load(open("meta/meta_9.22.296.1221.json"))
+folder = os.path.dirname(os.path.realpath(sys.argv[0]))
+h_fields = readhashes(f"{folder}/hashes.binfields.txt")
+h_types = readhashes(f"{folder}/hashes.bintypes.txt")
+meta_klasses = json.load(open(sys.argv[1]))
 unktypes = set()
 unkfields = set()
-#dump(meta_klasses["classes"], "all2.cpp", lambda k: True)
-vfxdeps = build_deps(meta_klasses["classes"], fnv1a("VfxSystemDefinitionData"), [ ])
-dump(meta_klasses["classes"], "VfxSystemDefinitionData.cpp", lambda k: k["hash"] in vfxdeps)
+
+if len(sys.argv) > 2:
+    vfxdeps = build_deps(meta_klasses["classes"], fnv1a(sys.argv[2]), [ ])
+    dump(meta_klasses["classes"], sys.stdout, lambda k: k["hash"] in vfxdeps)
+else:
+    dump(meta_klasses["classes"], sys.stdout, None)

@@ -16,6 +16,10 @@ if [ -d "/c/Windows" ]; then
 	./League\ of\ Legends.exe
 else
 	echo "wine"
+	export WINEVERSION=/opt/wine-lol
+	export WINEARCH=win32
+	export WINEPREFIX=$HOME/Wine/wine-lol
+	export PATH=$WINEVERSION/bin:$PATH
 	wine ./League\ of\ Legends.exe
 fi
 
@@ -26,4 +30,4 @@ echo "Bad entries: "
 grep -F '-1' -r meta/
 
 echo "Copying .jsons"
-cp meta/* ../live-meta/
+cp meta/* ../../live-meta/

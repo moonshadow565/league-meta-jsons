@@ -3,7 +3,7 @@ set -e
 set -o pipefail
 
 outdir="out/${1}"
-json="src/manifests/live-eune-win/${1}.json"
+json="src/manifests/live-euw-win/${1}.json"
 mkdir -p "${outdir}"
 
 manifest=$(cat "${json}" | grep -Po '(?<=game_patch_url": "https://lol\.secure\.dyn\.riotcdn\.net/channels/public/releases/)[0-9A-F]+\.manifest')
