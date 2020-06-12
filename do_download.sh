@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 
 outdir="out/${1}"
-json="src/manifests/live-euw-win/${1}.json"
+json="src/riot-manifests/LoL/EUW1/windows/lol-game-client/${1}.txt"
 mkdir -p "${outdir}"
 
 manifest=$(cat "${json}" | grep -Po '(?<=https://lol\.secure\.dyn\.riotcdn\.net/channels/public/releases/)[0-9A-F]+\.manifest')
