@@ -1,4 +1,5 @@
 #!/bin/bash
+export LC_ALL=en_US.UTF-8
 set -e
 set -o pipefail
 
