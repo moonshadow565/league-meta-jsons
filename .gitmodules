@@ -4,3 +4,6 @@
 [submodule "src/dumper"]
 	path = src/dumper
 	url = https://github.com/moonshadow565/LoLMetaDumper
+[submodule "src/riot-manifests"]
+	path = src/riot-manifests
+	url = https://github.com/Morilli/riot-manifests
