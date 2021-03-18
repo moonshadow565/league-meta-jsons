@@ -5,6 +5,7 @@ set -o pipefail
 
 root="$(pwd)"
 outdir="${root}/out/continue"
+archive="${root}/out/archive"
 json="${root}/src/riot-manifests/LoL/EUW1/windows/lol-game-client/${1}.txt"
 mkdir -p "${outdir}"
 
@@ -13,7 +14,7 @@ echo "Fetching manifest: ${manifest}"
 curl -f -o "${outdir}/manifest.manifest" "https://lol.secure.dyn.riotcdn.net/channels/public/releases/${manifest}"
 echo "Downloading files"
 PATH="$PATH:$(realpath bin)"
-fckrman download "${outdir}/manifest.manifest" -o "${outdir}" -v -p ".*(dll|exe)" -r 3
+fckrman download "${outdir}/manifest.manifest" -o "${outdir}" -v -p ".*(dll|exe)" -r 3 -a "${archive}"
 
 cd "${outdir}"
 
