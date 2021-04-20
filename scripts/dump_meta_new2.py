@@ -137,7 +137,7 @@ def dump_klass(klass, outf):
         normal = [ h2type(klass["parentClass"]) ] if klass["parentClass"] else ["PropertyBase"] if klass["isPropertyBase"] else []
         bases = normal + virtual
         return ": {}".format(", ".join(bases)) if len(bases) > 0 else ""
-    o = outf.write("struct {}{} {{\n".format(h2type(klass["hash"]), build_inheritance(klass)))
+    o = outf.write("struct {}{} {{ // 0x{:X}\n".format(h2type(klass["hash"]), build_inheritance(klass), klass["classSize"]))
     for field in sorted(klass["properties"], key=lambda f: f["offset"]):
         tname = get_type(field)
         fname = h2field(field["hash"])
