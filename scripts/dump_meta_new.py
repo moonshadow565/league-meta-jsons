@@ -20,14 +20,17 @@ t_point4D = 13
 t_matrix44 = 14
 t_color = 15
 t_string = 16
-t_hash = 17            # this magically transforms in weak_link when in container
-t_container = 18       # has containerI can have otherClass for elements
-t_struct_ptr = 19      # has otherClass is stored like unique_ptr in parrent
-t_struct_value = 20    # has otherClass is stored like value in parrent
-t_link_offset = 21     # has otherClass seems to be raw ptr to a global
-t_optional = 22        # has containerI
-t_map = 23             # has mapI can have otherClass for elements
-t_type24 = 24          # ???
+t_hash = 17
+t_file = 18
+t_container = 0x80 | 0
+t_container2 = 0x80 | 1
+t_struct_ptr = 0x80 | 2
+t_struct_value = 0x80 | 3
+t_link_offset = 0x80 | 4
+t_optional = 0x80 | 5
+t_map = 0x80 | 6
+t_type24 = 0x80 | 7
+
 
 def fnv1a(s):
     h = 0x811c9dc5
@@ -71,13 +74,13 @@ simple_types = {
     t_color : "color_t",
     t_string : "string_t",
     t_hash : "hash_t",
+    t_file : "file_t",
     t_type24 : "bool",
 }
 
+
 def fix_type(t):
-    if t & 0x80:
-        t = (t & 0x7F) + 18
-    return t if t <= t_container else t - 1
+    return t
 
 def get_nested_type(t, k):
     if t in simple_types:
@@ -98,7 +101,7 @@ def get_nested_type(t, k):
 
 def get_type(field):
     t = fix_type(field["type"])
-    if t == t_container:
+    if t == t_container or t == t_container2:
         vt = get_nested_type(fix_type(field["containerI"]["type"]), field["otherClass"])
         sz = field["containerI"]["fixedSize"]
         #if sz < 0:
@@ -134,7 +137,7 @@ def dump_klass(klass, outf):
         normal = [ h2type(klass["parentClass"]) ] if klass["parentClass"] else ["PropertyBase"] if klass["isPropertyBase"] else []
         bases = normal + virtual
         return ": {}".format(", ".join(bases)) if len(bases) > 0 else ""
-    o = outf.write("struct {}{} {{\n".format(h2type(klass["hash"]), build_inheritance(klass)))
+    o = outf.write("struct {}{} {{ // 0x{:X}\n".format(h2type(klass["hash"]), build_inheritance(klass), klass["classSize"]))
     for field in sorted(klass["properties"], key=lambda f: f["offset"]):
         tname = get_type(field)
         fname = h2field(field["hash"])
@@ -150,13 +153,13 @@ def find_klass(klasses, h):
             return klass
     return None
 
-def build_deps(klasses, h, skip = []):
+def build_deps(klasses, root_hashes, skip = []):
     q = []
     deps = set()
     done = set()
     km = { k["hash"] : k for k in klasses }
-    
-    q.append(h)
+    for h in root_hashes:
+        q.append(h)
     done.add(0)
     for x in skip:
         done.add(x)
@@ -195,7 +198,8 @@ unktypes = set()
 unkfields = set()
 
 if len(sys.argv) > 2:
-    vfxdeps = build_deps(meta_klasses["classes"], fnv1a(sys.argv[2]), [ ])
-    dump(meta_klasses["classes"], sys.stdout, lambda k: k["hash"] in vfxdeps)
+    root_hashes = { fnv1a(x) if not x.startswith('0x') else int(x) for x in sys.argv[2:] }
+    deps = build_deps(meta_klasses["classes"], root_hashes, [ ])
+    dump(meta_klasses["classes"], sys.stdout, lambda k: k["hash"] in deps)
 else:
     dump(meta_klasses["classes"], sys.stdout, None)
