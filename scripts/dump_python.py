@@ -9,30 +9,19 @@ import dump_python_header
 
 HEADER = inspect.getsource(dump_python_header)
 F_CLASS = """
-class {cname}({bnames}):{f_field_decl}
-    def __init__(self, kvp: dict[int, Any] = {{}}):
-        super({cname}, self).__init__(kvp){f_field_init}
-    @staticmethod
-    def create(value: dict[str, Any]) -> {cname}:
-        return MetaBase.create(value) # type: ignore
-    @staticmethod
-    def default() -> {cname}:
-        return {cname}()
-MetaBase.types__[0x{chash:08x}] = {cname}
+{cannotate}
+class {cname}({bnames}):{cfields}
+    pass
 """
-F_FIELD_DECL = """
+F_FIELD = """
     {fname}: {tname}"""
-F_FIELD_INIT = """
-        self.{fname} = MetaBase.read_field_(kvp, {tname}, 0x{fhash:08x})"""
 BAD_WORDS = { 
+    "self",
     *keyword.kwlist,
     *vars(__builtins__).keys(),
     *vars(list).keys(),
     *vars(dict).keys(),
     *vars(dump_python_header).keys(),
-    "create", 
-    "default",
-    "self",
 }
 TYPE_NAMES = {
     0: "Null",
@@ -162,8 +151,6 @@ class Dumper:
                 self.dump_class(base, outf, done)
                 base_name = self.get_type_hash_name(base)
                 bases.append(base_name)
-        if not len(bases):
-            bases.append("MetaBase")
         return bases
 
     def dump_class_fields(self, klass):
@@ -182,14 +169,14 @@ class Dumper:
         klass = self.lookup[chash]
         bases = self.dump_class_bases(klass, outf, done)
         fields = self.dump_class_fields(klass)
-        
+
+        cannotate = "@MetaClassEmpty" if len(fields) == 0 else "@MetaClass"
         cname = self.get_type_hash_name(chash)
-        bnames = ', '.join(bases)
-        
-        f_field_decl = ''.join([F_FIELD_DECL.format(fhash = fhash, fname = fname, tname = tname) for fhash, fname, tname in fields])
-        f_field_init = ''.join([F_FIELD_INIT.format(fhash = fhash, fname = fname, tname = tname) for fhash, fname, tname in fields])
-        f_class = F_CLASS.format(chash = chash, cname = cname, bnames = bnames, f_field_decl = f_field_decl, f_field_init = f_field_init)
-        outf.write(f_class)
+        bnames = "MetaBase" if len(bases) == 0 else ', '.join(bases)
+        cfields = ''.join([F_FIELD.format(fhash = fhash, fname = fname, tname = tname) for fhash, fname, tname in fields])
+
+        result = F_CLASS.format(chash = chash, cannotate = cannotate, cname = cname, bnames = bnames, cfields = cfields)
+        outf.write(result)
     
     def dump_all(self, outf):
         done = set()
