@@ -13,7 +13,7 @@ class {cname}({bnames}):{f_field_decl}
         super({cname}, self).__init__(kvp){f_field_init}
     @staticmethod
     def create(value: dict[str, Any]) -> {cname}:
-        return MetaBase.create(value)
+        return MetaBase.create(value) # type: ignore
     @staticmethod
     def default() -> {cname}:
         return {cname}()
