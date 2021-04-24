@@ -2,7 +2,7 @@
 from __future__ import annotations 
 import typing
 import dataclasses
-from typing import Optional, Union, Any, NamedTuple, Generic, TypeVar, Callable
+from typing import Optional, Union, Any, NamedTuple, Generic, TypeVar, Callable, Mapping
 
 def Fnv1a32(s: Union[str, int]) -> int:
     if isinstance(s, int):
@@ -19,29 +19,22 @@ def Fnv1a32(s: Union[str, int]) -> int:
 NoneType = type(None)
 TypeV = TypeVar('TypeV', covariant=True)
 
-class Int8(int):
-    pass
 
-class UInt8(int):
-    pass
-    
-class Int16(int):
-    pass
+Int8 = int
 
-class UInt16(int):
-    pass
-    
-class Int32(int):
-    pass
+UInt8 = int
 
-class UInt32(int):
-    pass
+Int16 = int
 
-class Int64(int):
-    pass
-    
-class UInt64(int):
-    pass
+UInt16 = int
+
+Int32 = int
+
+UInt32 = int
+
+Int64 = int
+
+UInt64 = int
 
 class Vec2(NamedTuple):
     x: float = float()
@@ -80,6 +73,17 @@ class File(str):
 class Link(Generic[TypeV]):
     entry: str = ""
     type_name: Optional[type] = None
+
+    def get(self, lookup: Mapping[str, Any]) -> Optional[V]:
+        if self.entry in lookup:
+            found = lookup[self.entry]
+            if isinstance(found, dict):
+                created = MetaCreate(self.type_name, found)
+                lookup[self.entry] = created
+                return created
+            else:
+                return found
+        return None
 
 @dataclasses.dataclass
 class MetaBase:
@@ -159,7 +163,7 @@ _META_DEFAULT: dict[str, Any] = {
 def MetaField(key: int, type_name: str) -> dataclasses.Field:
     metadata: dict[str, Any] = { "key": key }
     if type_name.startswith('Optional['):
-        return dataclasses.field(default = None, metadata = metadata)
+        return dataclasses.field(default = eval("None"), metadata = metadata)
     elif type_name in _META_DEFAULT:
         return dataclasses.field(default = _META_DEFAULT[type_name], metadata = metadata)
     else:
