@@ -24,8 +24,8 @@ BAD_WORDS = {
     *vars(dump_python_header).keys(),
 }
 TYPE_NAMES = {
-    0: "Null",
-    1: "Boolean",
+    0: "None",
+    1: "bool",
     2: "Int8",
     3: "UInt8",
     4: "Int16",
@@ -34,23 +34,23 @@ TYPE_NAMES = {
     7: "UInt32",
     8: "Int64",
     9: "UInt64",
-    10: "Float32",
+    10: "float",
     11: "Vec2",
     12: "Vec3",
     13: "Vec4",
     14: "Mtx44",
     15: "Color",
-    16: "String",
+    16: "str",
     17: "Hash",
     18: "File",
-    0x80 | 0: "Container",
-    0x80 | 1: "Container2",
+    0x80 | 0: "list",
+    0x80 | 1: "list",
     0x80 | 2: "StructPtr",
     0x80 | 3: "StructValue",
     0x80 | 4: "Link",
-    0x80 | 5: "Option",
-    0x80 | 6: "Map",
-    0x80 | 7: "Boolean",
+    0x80 | 5: "Optional",
+    0x80 | 6: "dict",
+    0x80 | 7: "bool",
 }
 
 class Dumper:
@@ -120,7 +120,7 @@ class Dumper:
         if type_name == "StructValue":
             return hash_name
         elif type_name == "StructPtr":
-            return f"Option[{hash_name}]"
+            return f"Optional[{hash_name}]"
         elif type_name == "Link":
             return f"Link[{hash_name}]"
         else:
