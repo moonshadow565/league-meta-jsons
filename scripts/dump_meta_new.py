@@ -138,6 +138,8 @@ def dump_klass(klass, outf):
         bases = normal + virtual
         return ": {}".format(", ".join(bases)) if len(bases) > 0 else ""
     o = outf.write("struct {}{} {{ // 0x{:X}\n".format(h2type(klass["hash"]), build_inheritance(klass), klass["classSize"]))
+    o = outf.write("   // ctor: 0x{:08X}\n".format(klass["constructor"] + 0x400000))
+    o = outf.write("   // init: 0x{:08X}\n".format(klass["inplaceconstructor"] + 0x400000))
     for field in sorted(klass["properties"], key=lambda f: f["offset"]):
         tname = get_type(field)
         fname = h2field(field["hash"])
