@@ -63,8 +63,48 @@ class Color(NamedTuple):
     b: UInt8 = UInt8()
     a: UInt8 = UInt8()
 
-class Hash(str):
-    pass
+class Hash:
+    unhashed: Optional[str]
+    hashed: int
+    def __init__(self, value: Union[Hash, str, int, NoneType] = None):
+        if value == None:
+            self.unhashed = None
+            self.hashed = 0
+        elif isinstance(value, int):
+            self.unashed = None
+            self.hashed = value
+        elif isinstance(value, Hash):
+            self.unhashed = value.unhashed
+            self.hashed = value.hashed
+        elif value.startswith('{') and value.endswith('}'):
+            self.unhashed = None
+            self.hashed = int(value[1:-1], 16)
+        else:
+            self.unhashed = value
+            h = 0x811c9dc5
+            for b in value.encode('ascii').lower():
+                h = ((h ^ b) * 0x01000193) % 0x100000000
+            self.hashed = h
+    def __str__(self) -> str:
+        return repr(self.unhashed) if self.unhashed else f"0x{self.hashed:x}"
+    def __repr__(self) -> str:
+        return repr(self.unhashed) if self.unhashed else f"0x{self.hashed:x}"
+    def __hash__(self) -> Any:
+        return hash(self.hashed)
+    def __bool__(self) -> bool:
+        return not not self.hashed
+    def __lt__(self, other: Union[Hash, str, int, NoneType]) -> bool:
+        return self.hashed < Hash(other).hashed
+    def __le__(self, other: Union[Hash, str, int, NoneType]) -> bool:
+        return self.hashed < Hash(other).hashed
+    def __eq__(self, other: Union[Hash, str, int, NoneType]) -> bool:
+        return self.hashed == Hash(other).hashed
+    def __ne__(self, other: Union[Hash, str, int, NoneType]) -> bool:
+        return self.hashed != Hash(other).hashed
+    def __gt__(self, other: Union[Hash, str, int, NoneType]) -> bool:
+        return self.hashed > Hash(other).hashed
+    def __ge__(self, other: Union[Hash, str, int, NoneType]) -> bool:
+        return self.hashed >= Hash(other).hashed
 
 class File(str):
     pass
