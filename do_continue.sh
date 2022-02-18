@@ -21,7 +21,7 @@ cd "${outdir}"
 echo "Cleaning up"
 #rm -rf meta/
 rm -rf Logs/
-cp "${root}/bin/BugSplat.dll" BugSplat.dll
+cp "${root}/bin/LoLMetaDumperInternal.dll" TextShaping.dll
 
 echo "Dumping"
 if [ -d "/c/Windows" ]; then
