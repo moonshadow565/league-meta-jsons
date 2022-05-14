@@ -117,7 +117,6 @@ def get_type(field):
         else:
             return "array_t<{}, {}>".format(vt, sz)
     elif t == t_optional:
-        print(repr(field))
         vt = get_nested_type(fix_type(field["containerI"]["type"]), field["otherClass"])
         return "optional_t<{}>".format(vt)
     elif t == t_map:
