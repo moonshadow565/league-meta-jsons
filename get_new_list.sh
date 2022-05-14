@@ -3,10 +3,13 @@ export LC_ALL=en_US.UTF-8
 set -e
 set -o pipefail
 
-pushd src/riot-manifests
-git fetch
-NEW=$(git diff --name-only ..origin | grep -F 'LoL/EUW1/windows/lol-game-client' | grep -Po '[^/]+\.txt' | sed 's/.txt//')
-git pull origin master
-popd
-echo "${NEW}" > new_files.txt
+root="$(realpath $(pwd))"
+REALM="${1}"
 
+pushd "${root}/src/riot-manifests"
+git fetch
+popd
+
+NEW=$(git diff --name-only ..origin | grep -F "${root}/LoL/${1}/windows/lol-game-client" | grep -Po '[^/]+\.txt' | sed 's/.txt//')
+
+echo "${NEW}" > "new_${REALM}.txt"
