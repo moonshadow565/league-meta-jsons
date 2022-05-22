@@ -143,13 +143,11 @@ def dump_klass(klass, outf):
         normal = [ h2type(klass["parentClass"]) ] if klass["parentClass"] else ["PropertyBase"] if klass["isPropertyBase"] else []
         bases = normal + virtual
         return ": {}".format(", ".join(bases)) if len(bases) > 0 else ""
-    o = outf.write("struct {}{} {{ // 0x{:X}\n".format(h2type(klass["hash"]), build_inheritance(klass), klass["classSize"]))
-    #o = outf.write("   // ctor: 0x{:08X}\n".format(klass["constructor"] + 0x400000))
-    #o = outf.write("   // init: 0x{:08X}\n".format(klass["inplaceconstructor"] + 0x400000))
+    o = outf.write("struct {}{} {{\n".format(h2type(klass["hash"]), build_inheritance(klass)))
     for field in sorted(klass["properties"], key=lambda f: f["offset"]):
         tname = get_type(field)
         fname = h2field(field["hash"])
-        o = outf.write("    {} {}; // 0x{:X}\n".format(tname, fname, field["offset"]))
+        o = outf.write("    {} {};\n".format(tname, fname))
     o = outf.write("};\n")
 
 
@@ -198,17 +196,18 @@ def dump(klasses, outf, filterf = None):
         if not filterf or filterf(klass):
             dump_klass(klass, outf)
 
-folder = os.path.dirname(os.path.realpath(sys.argv[0]))
-h_fields = readhashes(f"{folder}/hashes.binfields.txt")
-h_types = readhashes(f"{folder}/hashes.bintypes.txt")
-meta_klasses = json.load(open(sys.argv[1]))
-is_old = tuple(int(x) for x in meta_klasses["version"].split('.')) < (10, 8)
-unktypes = set()
-unkfields = set()
+if __name__ == '__main__':
+    folder = os.path.dirname(os.path.realpath(sys.argv[0]))
+    h_fields = readhashes(f"{folder}/hashes.binfields.txt")
+    h_types = readhashes(f"{folder}/hashes.bintypes.txt")
+    meta_klasses = json.load(open(sys.argv[1]))
+    is_old = tuple(int(x) for x in meta_klasses["version"].split('.')) < (10, 8)
+    unktypes = set()
+    unkfields = set()
 
-if len(sys.argv) > 2:
-    root_hashes = { fnv1a(x) if not x.startswith('0x') else int(x) for x in sys.argv[2:] }
-    deps = build_deps(meta_klasses["classes"], root_hashes, [ ])
-    dump(meta_klasses["classes"], sys.stdout, lambda k: k["hash"] in deps)
-else:
-    dump(meta_klasses["classes"], sys.stdout, None)
+    if len(sys.argv) > 2:
+        root_hashes = { fnv1a(x) if not x.startswith('0x') else int(x) for x in sys.argv[2:] }
+        deps = build_deps(meta_klasses["classes"], root_hashes, [ ])
+        dump(meta_klasses["classes"], sys.stdout, lambda k: k["hash"] in deps)
+    else:
+        dump(meta_klasses["classes"], sys.stdout, None)
