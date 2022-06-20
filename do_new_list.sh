@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 
 root="$(realpath $(pwd))"
-archive="${root}/out/archive"
+archive="${root}/out/archive.bundle"
 PATH="$PATH:$root/bin"
 REALM="${1}"
 
@@ -21,7 +21,7 @@ function dump()
 
     echo "Downloading files"
     mkdir -p "${outdir}"
-    fckrman download "${outdir}/manifest.manifest" -o "${outdir}" -v -p ".*(dll|exe)" -r 3 -a "${archive}"
+    rman-dl "${outdir}/manifest.manifest" "${outdir}" -p "\\.(dll|exe)"
 
     echo "Cleaning up"
     mkdir -p "${outdir}/meta"

@@ -1,6 +1,3 @@
-[submodule "src/fckrman"]
-	path = src/fckrman
-	url = https://github.com/moonshadow565/fckrman
 [submodule "src/dumper"]
 	path = src/dumper
 	url = https://github.com/moonshadow565/LoLMetaDumper
